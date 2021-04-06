@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/appinfo"
+        android:title="@string/appinfo" />
+    <item
+        android:id="@+id/checkApp"
+        android:title="@string/checkApp" />
+    <item
+        android:id="@+id/shareapk"
+        android:title="@string/share" />
+</menu>
