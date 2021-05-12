@@ -2,5 +2,19 @@ Through DefenseDroid, we tend to gift a machine learning-based system for the de
 
 You can find dataset on Kaggle: https://www.kaggle.com/defensedroid/android-malware-detection
 
+## Use Latest Versions of following packages to run the programs: 
+- Tensorflow
+- Keras 
+- Numpy
+- Pandas
+- Scikit-learn
+- NetworkX
+- fPDF
+- werkzeug
+- Request
+- JSON
+
 
 ![alt text](https://github.com/DefenseDroid/DefenseDroid/blob/main/DefenseDroid%20Android/app/src/main/res/drawable/app_icon_old.png?raw=true)
+
+
