@@ -20,23 +20,6 @@ def createPDF(filename,appname,tokenfileName,katzpred,degreepred,closenesspred,c
     pdf.ln(4)
     txt = '''Malware is a technical term and an abbreviated form of malicious software. The damage that malware does depends on the category of malware.In short, they create backdoors, corrupts files and spy on your online activities like passwords, credit card numbers, surfing habits and more. Not only has that but also infected entire network of devices and pops-up annoying ads.Android Malware could be mainly categorized as Adware, Spyware and Trojans which can affect the Android device in various ways as mentioned below.'''
 
-    # pdf.set_font('Times', '', 12)
-    # pdf.multi_cell(0, 5, txt)
-    # pdf.ln()
-    # pdf.set_font('Times', 'B', 13)
-    # pdf.write(5, 'Adware: ')
-    # pdf.set_font('Times', '', 12)
-    # txt1 = "Not really malicious. But causes huge amount of inconvenience and can give way to a lot of other malware."
-    # pdf.write(5, txt1)
-
-    # pdf.ln(4)
-    # pdf.ln(4)
-    # pdf.set_font('Times', 'B', 13)
-    # pdf.write(5, 'Spyware: ')
-    # pdf.set_font('Times', '', 12)
-    # txt2 = 'Malicious software that is designed to spy on user activities.'
-    # pdf.write(5,txt2)
-    # pdf.output('/home/debian/Documents/run_server/API_processing/Reports/' + comboName + '.pdf', 'F')
     txt4 = '''Most Android malware do not attempt to perform exploits to get to root, as that is not required for nefarious motives. 
                 Rather, apps are commonly modified to add in a hidden Trojan component so that when a user installs an app the Trojan is also installed. 
                 Once installed and run, Android malware may employ a wide variety of permissions enabled for the app to then send text messages, 
