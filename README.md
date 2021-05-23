@@ -4,6 +4,8 @@ You can find dataset on Kaggle: https://www.kaggle.com/defensedroid/android-malw
 
 Find our paper "DefenseDroid: A modern approach to Android Malware Detection" at https://drive.google.com/file/d/1Rwbud-M8VNHi8ptna0UX0XVILe0V8oql/view?usp=sharing
 
+Demo: https://www.youtube.com/watch?v=xOhO3jNdvGQ&t=740s
+
 ## Use Latest Versions of following packages to run the programs: 
 - Tensorflow
 - Keras 
