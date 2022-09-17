@@ -15,10 +15,6 @@ def NotificationGenerator(token, appName,fileName,comboName):
   serverToken = 'AAAAY9pa1Wo:APA91bGd_Fu8VZQh8JpBkTlDko_flKe2hiE5597Y9FjA533j8tplUszhw90qRiA9njvzhWJk4Cy1wtGNcc5a5dFRQ_quDeiu1rgWFNDQPe4jxlBGQq40iHqCVl1RuT2d0R2LnsCNnL6y'
   #deviceToken = token
   static = 'dd9_jXVPRd2roRcS_o1qZU:APA91bHHRzduFpvNuGQsZ9DTrFwesx7IUacVTOsOZ1j-cMLNAUn-879bHdgg-ePLaEONhL63pdIzUpS2QvTizgnLUEO0W6PzvQxc7YxUgtQt_lbktI-lYrsBJN8lEjYXdKQNA9_-fJI2'
-  print(token)
-  print(type(token))
-  #static = 'dd9_jXVPRd2roRcS_o1qZUAPA91bHHRzduFpvNuGQsZ9DTrFwesx7IUacVTOsOZ1j-cMLNAUn-879bHdgg-ePLaEONhL63pdIzUpS2QvTizgnLUEO0W6PzvQxc7YxUgtQt_lbktI-lYrsBJN8lEjYXdKQNA9_-fJI2'
-  print(token == static)
   headers = {
           'Content-Type': 'application/json',
           'Authorization': 'key=' + serverToken,
