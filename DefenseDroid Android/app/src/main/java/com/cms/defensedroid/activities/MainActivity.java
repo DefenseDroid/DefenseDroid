@@ -1,5 +1,7 @@
 package com.cms.defensedroid.activities;
 
+import static com.cms.defensedroid.util.Constants.*;
+
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -110,8 +112,8 @@ public class MainActivity extends AppCompatActivity implements AppListAdapter.It
     long longsize;
     String uniqueID;
     String color, fileName;
-    String ipv4Address = "127.0.0.1"; //Add your Cloud Machine IP Address Here
-    String portNumber = "80";
+    String ipv4Address = SERVER_IP;
+    String portNumber = SERVER_PORT;
     String token;
     ImageView imageIcon;
 
@@ -666,7 +668,7 @@ public class MainActivity extends AppCompatActivity implements AppListAdapter.It
     public void uploadFile(String path, String isDeepScan) {
 
         // Get a non-default Storage bucket
-        FirebaseStorage storage = FirebaseStorage.getInstance("gs://your-bucket-name-here"); 
+        FirebaseStorage storage = FirebaseStorage.getInstance(FIREBASE_STORAGE_ID);
 
         // Create a storage reference from our app
         StorageReference storageRef = storage.getReference();

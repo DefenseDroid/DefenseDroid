@@ -1,5 +1,7 @@
 package com.cms.defensedroid.activities;
 
+import static com.cms.defensedroid.util.Constants.*;
+
 import android.app.DownloadManager;
 import android.content.Context;
 import android.net.Uri;
@@ -54,7 +56,7 @@ public class MyFirebaseInstanceIDService extends FirebaseMessagingService {
         Log.i("DownloadingFile", "File is Being Download...");
 
         // Get a non-default Storage bucket
-        FirebaseStorage storage = FirebaseStorage.getInstance("gs://your-bucket-name-here");
+        FirebaseStorage storage = FirebaseStorage.getInstance(FIREBASE_STORAGE_ID);
 
         // Create a storage reference from our app
         StorageReference storageRef = storage.getReference();
